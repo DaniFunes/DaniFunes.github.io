@@ -1,0 +1,105 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    background-color: #0a192f;
+    margin: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+em {
+    color: #64ffda;
+}
+
+ul li{
+    color:white;
+    display: block;
+    list-style:square;
+    padding: 10px;
+}
+
+a, button {
+    color: white;
+    text-decoration: none;
+    background-color: #0a192f;
+}
+
+.copyright {
+    font-size: 10px;
+    padding-top: 50px;
+}
+
+.cta, .cajas {
+    padding: 20px;
+    border: 1px solid #64ffda;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#contacto {
+    padding: 20px;
+}
+
+button.cta {
+    margin: 20px 0px;
+    background-color: #64ffda;
+    font-weight: bold;
+}
+
+#navegador {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin: 10px;
+align-items: center;
+
+}
+
+
+footer {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.cajas{
+    border: 1px solid #64ffda;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+input, textarea {
+    background-color: #0a192f;
+    width: 100%;
+    margin: 10px 0px;
+    border: 1px solid #64ffda;
+    border-radius: 5px;
+
+}
+
+input:focus, textarea:focus {
+    color: white;
+    border-color: white;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column
+}
+
+
+@media screen and (min-width: 1024px) {
+    a.cta:hover { 
+        background-color:  rgb(35, 172, 42);
+        transform: scale(1.5);
+    }
+
+}
